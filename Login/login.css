@@ -1,1 +1,30 @@
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Sacramento', cursive;
+  font-weight: lighter;
+  margin-top: 2em;
+}
+
+section {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+button {
+  float: right;
+  margin-top: 1em;
+  background-color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
