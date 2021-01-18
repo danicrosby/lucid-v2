@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Sacramento', cursive;
+  margin-top: 2em;
+}
+
+.cloud-container {
+  display: flex;
+  justify-content: center;
+}
+
+#cloud {
+  color: purple;
+  font-size: 80px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
