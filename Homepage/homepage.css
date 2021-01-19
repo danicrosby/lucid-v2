@@ -32,6 +32,13 @@ header {
 #header-cloud {
   margin-left: 1.8em;
   font-size: 2em;
+  opacity: .9;
+  transition: opacity 1s ease-in-out 1s;
+}
+
+#header-cloud:hover {
+  color: purple;
+  opacity: 1;
 }
 
 .header-title {

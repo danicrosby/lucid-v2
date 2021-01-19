@@ -3,6 +3,10 @@ section {
   flex-flow: column wrap;
 }
 
+.welcome-container {
+  height: 18em;
+}
+
 h1 {
   color: black;
   text-align: center;
@@ -19,6 +23,13 @@ h1 {
 #cloud {
   color: purple;
   font-size: 80px;
+  opacity: .8;
+  transition: opacity 230ms ease-out 2s;
+}
+
+#cloud:hover {
+  color: black;
+  opacity: 1;
 }
 
 a {
