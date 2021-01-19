@@ -68,7 +68,7 @@ header {
   align-items: center;
   background-color: lightgrey;
   width: 30em;
-  height: 11em;
+  height: 10.8em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-bottom: 1em;
@@ -110,14 +110,15 @@ hr {
 }
 
 .date {
-  margin-left: 2em;
- font-family: 'Almarai', sans-serif;
+  margin-left: 2.8em;
+  font-family: 'Almarai', sans-serif;
+  font-size: .7em;
 
 }
 
 #expand-arrow {
-  font-size: 1.3em;
-  font-weight: bold;
+  font-size: 1.4em;
+  font-weight: bolder;
 }
 
 a {
