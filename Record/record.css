@@ -1,0 +1,103 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  width: 600px;
+  height: 920px;
+}
+
+.header-icon-cloud-container {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  height: 5em;
+  width: 28em;
+  margin-top: 0em;
+  border-bottom: 1px;
+}
+
+.header-top-text {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+#header-cloud {
+  margin-left: 1.8em;
+  margin-top: .3em;
+  font-size: 2em;
+}
+
+.header-title {
+  font-size: 30px;
+  font-family: 'Almarai', sans-serif;
+  margin-left: 2.3em;
+}
+
+.card-grey {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: lightgrey;
+  width: 30em;
+  height: 40em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.card-white {
+  background-color: white;
+  height: 34em;
+  width: 28em;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.top-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+  width: 28em;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.title-text {
+  margin-left: 1.5em;
+  font-size: 20px;
+  font-family: 'Almarai', sans-serif;
+}
+
+.textarea {
+  margin-left: 1.8em;
+  margin-right: 1.8em;;
+  font-size: 12px;
+}
+
+hr {
+  width: 24em;
+  margin-left: 2em;
+  color: black;
+  
+}
+
+#check-circle {
+  font-size: 2.8em;
+  font-weight: bolder;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
