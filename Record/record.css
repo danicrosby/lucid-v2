@@ -95,6 +95,12 @@ hr {
 #check-circle {
   font-size: 2.8em;
   font-weight: bolder;
+  color: black;
+}
+
+#check-circle:hover {
+  color: purple;
+  opacity: 1;
 }
 
 a {
