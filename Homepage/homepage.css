@@ -12,25 +12,33 @@ main {
   height: 920px;
 }
 
-.header-icon-cloud-container {
-  display: flex;
-  justify-content: center;
-}
-
 header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  border: 1px solid lightgrey;
   height: 5em;
-  width: 28em;
-  margin-top: 0em;
-  border-bottom: 1px;
+  width: 34em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 0em;
+  border-bottom: 0em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.header-top-text {
+.header-icon-cloud-container {
   display: flex;
   justify-content: flex-start;
 }
 
+.header-top-text {
+  display: flex;
+  justify-content: center;
+}
+
 #header-cloud {
-  margin-left: 1.8em;
+  margin-left: -4em;
   font-size: 2em;
   opacity: .9;
   transition: opacity 1s ease-in-out 1s;
@@ -44,7 +52,7 @@ header {
 .header-title {
   font-size: 30px;
   font-family: 'Almarai', sans-serif;
-  margin-left: 3.3em;
+  margin-left: .5em;
 }
 
 .header-date {
@@ -52,6 +60,14 @@ header {
   font-size: 10px;
   font-family: 'Almarai', sans-serif;
   margin-left: 2em;
+}
+
+.main-section-container {
+  border: 1px solid lightgrey;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+
 }
 
 #add-button {
@@ -67,7 +83,7 @@ header {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  background-color: lightgrey;
+  background-color: rgb(222, 222, 222);
   width: 30em;
   height: 10.8em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -131,5 +147,5 @@ a {
 .icons {
   display: flex;
   justify-content: space-around;
-  margin-top: 2em;
+  margin-top: 2.5em;
 }
