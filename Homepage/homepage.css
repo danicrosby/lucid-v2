@@ -38,28 +38,29 @@ header {
 }
 
 #header-cloud {
-  margin-left: -4em;
+  margin-left: -5em;
   font-size: 2em;
   opacity: .9;
   transition: opacity 1s ease-in-out 1s;
 }
 
 #header-cloud:hover {
-  color: purple;
+  color: darkorchid;
   opacity: 1;
 }
 
 .header-title {
   font-size: 30px;
-  font-family: 'Almarai', sans-serif;
-  margin-left: .5em;
+  font-family: 'Sacramento', cursive;
+  margin-left: 0em;
+  font-weight: bolder;
 }
 
 .header-date {
   text-align: center;
   font-size: 10px;
   font-family: 'Almarai', sans-serif;
-  margin-left: 2em;
+  margin-left: 0em;
 }
 
 .main-section-container {
@@ -76,7 +77,7 @@ header {
   font-size: 3em;
   margin-top: .3em;
   margin-bottom: .4em;
-  color: purple;
+  color: darkorchid;
 }
 
 .card-grey {
@@ -128,7 +129,7 @@ hr {
 }
 
 .date {
-  margin-left: 2.8em;
+  margin-left: 3em;
   font-family: 'Almarai', sans-serif;
   font-size: .7em;
 
