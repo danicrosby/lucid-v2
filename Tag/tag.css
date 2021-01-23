@@ -8,73 +8,80 @@ main {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
+  width: 600px;
+  height: 100%;
 }
 
-.main-section-container {
+header {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  height: 5em;
+  width: 34em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 0em;
+  border-bottom: 0em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .header-icon-cloud-container {
   display: flex;
-  justify-content: center;
-}
-
-header {
-  height: 5em;
-  width: 28em;
-  margin-top: 0em;
-  border-bottom: 1px;
+  justify-content: flex-start;
 }
 
 .header-top-text {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 #header-cloud {
-  margin-left: 1.8em;
+  margin-left: -5em;
   font-size: 2em;
   opacity: .9;
   transition: opacity 1s ease-in-out 1s;
 }
 
 #header-cloud:hover {
-  color: purple;
+  color: darkorchid;
   opacity: 1;
 }
 
 .header-title {
   font-size: 30px;
-  font-family: 'Almarai', sans-serif;
-  margin-left: 3.3em;
+  font-family: 'Sacramento', cursive;
+  margin-left: 0em;
+  font-weight: bolder;
 }
 
 .header-date {
   text-align: center;
   font-size: 10px;
   font-family: 'Almarai', sans-serif;
-  margin-left: 2em;
+  margin-left: 0em;
 }
 
-#add-button {
-  display: flex;
-  justify-content: center;
-  font-size: 3em;
-  margin-top: .3em;
-  margin-bottom: .4em;
+.main-section-container {
+  border: 1px solid lightgrey;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+
 }
 
 .card-grey {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  background-color: lightgrey;
+  background-color: rgb(222, 222, 222);
   width: 30em;
-  height: 9em;
+  height: 10.8em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 .card-white {
@@ -98,7 +105,7 @@ header {
 
 .dream-type {
   margin-left: 1.5em;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Almarai', sans-serif;
 }
 
@@ -133,15 +140,42 @@ hr {
   margin-left: 4.7em;
   font-size: 2.8em;
   font-weight: bolder;
-  color: black;
+  color: darkorchid;
 }
 
 #check-circle:hover {
-  color: purple;
+  color: black;
   opacity: 1;
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+/* DROPDOWN BUTTONS */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 3em;
+  bottom: -3em;
+  width: 225px;
+  background-color: rgb(183, 133, 206);
+  border-radius: 5px;
+  /* min-width: 0px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  opacity: .8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

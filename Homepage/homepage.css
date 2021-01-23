@@ -99,7 +99,6 @@ header {
   margin: 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-
 }
 
 .top-text {
@@ -114,13 +113,13 @@ header {
 
 .dream-type {
   margin-left: 1.5em;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Almarai', sans-serif;
 
 }
 
 #cloud {
-  margin-right: 2em;
+  margin-right: 1.5em;
   font-size: 2em;
 }
 
