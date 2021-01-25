@@ -7,12 +7,21 @@ section {
   height: 18em;
 }
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 h1 {
+  animation-name: fadein;
+  animation-fill-mode: backwards;
+  animation-duration: 5s;
+  animation-delay: .7s;
   color: black;
   text-align: center;
-  font-size: 5em;
+  font-size: 7em;
   font-family: 'Sacramento', cursive;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .cloud-container {
@@ -20,11 +29,24 @@ h1 {
   justify-content: center;
 }
 
+@keyframes colors {
+  0%  {color: darkblue;}
+  25%  {color: darkorchid;}
+  50%  {color: violet;}
+  100%  {color: darkmagenta;}
+
+}
+
 #cloud {
-  color: purple;
-  font-size: 80px;
-  opacity: .8;
-  transition: opacity 230ms ease-out 2s;
+  color: indigo;
+  font-size: 8em;
+  opacity: .9;
+  animation-name: colors;
+  animation-delay: .3s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  width: 7em;  
 }
 
 #cloud:hover {
